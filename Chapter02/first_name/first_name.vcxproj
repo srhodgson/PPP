@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{aeecaffc-4847-4402-9def-62f8ff125873}</ProjectGuid>
-    <RootNamespace>PPP</RootNamespace>
+    <ProjectGuid>{675930d9-9f8b-4e43-9ce9-f9487ed62d0b}</ProjectGuid>
+    <RootNamespace>firstname</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="std_lib_facilities.h" />
+    <ClCompile Include="first_name.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter01\hello_world.cpp" />
+    <ClInclude Include="..\..\std_lib_facilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
