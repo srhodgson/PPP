@@ -3,4 +3,5 @@ project(PPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory("${PROJECT_SOURCE_DIR}/Chapter01" "")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Chapter02")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Chapter03")
