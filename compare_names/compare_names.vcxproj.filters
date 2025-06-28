@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="read_names.cpp">
+    <ClCompile Include="compare_names.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
