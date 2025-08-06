@@ -1,5 +1,6 @@
 #include "../../std_lib_facilities.h"
 
+
 int main ()
 {
 	constexpr double cm_per_inch = 2.54; // number of centimeters in an inch
